@@ -1,0 +1,27 @@
+{
+  "name": "mineguard-sih26007",
+  "version": "1.0.0",
+  "description": "MineGuard: Fog Safety & Vehicle Collision Prevention System for Open Cast Iron Ore Mines",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && node index.js",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "start": "node server/index.js"
+  },
+  "keywords": [
+    "mining",
+    "safety",
+    "collision-prevention",
+    "fog",
+    "low-visibility",
+    "sih26007"
+  ],
+  "author": "MineGuard Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "dependencies": {}
+}
